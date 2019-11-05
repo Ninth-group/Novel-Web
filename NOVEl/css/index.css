@@ -1,1 +1,75 @@
-/* # */
+/* 导航栏 */
+.navigation{
+    height: 40px;
+    background-color: #3e3d43;
+    
+}
+
+.navigation-l{
+    width: 220px;
+    height: 40px;
+    background-color:#313035 ;
+    float: left;
+}
+.navigation-l :hover{
+    background-color:#121113 ;
+}
+.navigation-l a{
+    display: block;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px; 
+    color: #fff;
+
+}
+.navigation-l i{
+    font-family: "iconfont"; /* 使用字体 */
+    font-style: normal;   /*不倾斜 */
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+
+.navigation-r{
+    width: 980px;
+    height: 40px;
+    float: left; 
+    /* position: relative; */
+}
+.navigation-r ul{
+    width: 940px;
+    height: 40px;
+    padding-left: 40px;
+    /* position: absolute; */
+}
+.navigation-r li{
+    float: left;
+    height: 40px;
+    
+}
+.navigation-r .finally{
+    float: right;  
+}
+.navigation-r .finally a{
+    padding: 10px 30px;
+}
+.navigation-r .finally i{
+    font-family: "iconfont"; /* 使用字体 */
+    font-style: normal;   /*不倾斜 */
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.navigation-r li a{
+    display: block;
+    height: 20px;
+    padding: 10px 45px;
+    color: #fff;
+}
+.navigation-r li :hover
+{
+    background-color:#121113 ;
+}
