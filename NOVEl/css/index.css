@@ -169,6 +169,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    
 }
 .displayImg> img{
      transition: opacity 20s linear;
@@ -222,6 +223,8 @@
     left:10px;
 }
 .txt-box{
+    /* margin: 0; */
+    padding: 0;
     width: 100%;
     height:5px;
     list-style: none;
@@ -234,6 +237,7 @@
 }
 .txt-box:hover{
     height: 20px;
+    
 }
 .txtItem{
     width: 12.5%;
