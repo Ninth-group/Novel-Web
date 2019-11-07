@@ -154,16 +154,19 @@
     padding: 5px 5px 0 5px ;
 }
 .content-1-2-t{
+    
     width: 750px;
     height: 245px;
 }
 .carousel>.carousel-inner>.carousel-item >img
 {
+    
     width: 100%;
     height: 245px;
 } 
 /* 轮播图 */
 .slider{
+    
     width: 100%;
     height: 245px;
     margin: 0 auto;
@@ -204,6 +207,7 @@
     margin: 0 auto;
 }
 .btn{
+    
     position: absolute;
     top:50%;
     width: 60px;
@@ -223,7 +227,7 @@
     left:10px;
 }
 .txt-box{
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     width: 100%;
     height:5px;
@@ -234,6 +238,10 @@
     display: flex;
     z-index: 5;
     transition: height 0.1s linear 0s;
+}
+.txt-box p {
+    margin: 0;
+    padding: 0;
 }
 .txt-box:hover{
     height: 20px;
@@ -395,7 +403,7 @@
 		color: #C0C0C0;
 		text-decoration: none;
 	}
-	a:hover{
+    .flex-container	a:hover{
 	
 	color: red;
 	
