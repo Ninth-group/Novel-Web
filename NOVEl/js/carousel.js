@@ -103,5 +103,5 @@ function rightImgGo(){
 //  登录跳转
 function f()
 {
-window.location.href="index.html";
+window.location.href="./PersonalCenter.html";
 }
