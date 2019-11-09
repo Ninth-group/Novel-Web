@@ -100,3 +100,8 @@ function rightImgGo(){
     rightImg();
     changeImg();
 }
+//  登录跳转
+function f()
+{
+window.location.href="index.html";
+}
