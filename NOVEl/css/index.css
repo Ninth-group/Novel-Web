@@ -438,5 +438,9 @@
 	.hrlength{
 		width: 1195px;
 		margin: 0 auto;
-	}
+    }
+    .footer{
+        text-align: center;    
+        block-size: 10px;
+    }
 /*  */
